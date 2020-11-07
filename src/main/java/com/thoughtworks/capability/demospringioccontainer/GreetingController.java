@@ -15,6 +15,7 @@ public class GreetingController {
 
     @Autowired
     public GreetingController(GreetingService greetingService) {
+        System.out.println("~~~~~~~controller created~~~~~~~~~");
         this.greetingService = greetingService;
     }
 
